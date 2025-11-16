@@ -86,8 +86,8 @@ char	**ft_split(char const *s, char c)
 /* 
 int main(void)
 {
-	char *s = "    hello   ;   bla                   ;";
-	char c = ';';
+	char *s = "You Know That I Come First!";
+	char c = ' ';
 	char **str = ft_split(s, c);
 	int i = 0;
 	while(str && str[i])

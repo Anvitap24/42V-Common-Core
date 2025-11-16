@@ -43,7 +43,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 /* 
 int main(void)
 {
-	char const *s1 = "";
+	char const *s1 = "Let's";
 	char const *s2 = "break the internet!";
 	char *join = ft_strjoin(s1, s2);
 	printf("%s", join);

@@ -42,8 +42,8 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 #include <bsd/string.h>
 int main(void)
 {
-	char dst[20] = "hello";
-	char dst2[20] = "hello";
+	char dst[20] = "It isn't";
+	char dst2[20] = "It isn't";
 	const char src[] = "in my blood";
 	size_t l = 1;
 	size_t f = ft_strlcat(dst, src, l);

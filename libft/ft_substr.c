@@ -50,9 +50,5 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	char *sub = ft_substr(s, 3, 7); 
 	printf("%s", sub);
 
-	///////////
-	// char * s = ft_substr("tripouille", 0, 42000);
-	// printf("%s", s);
-
 	free(s);
 }  */
